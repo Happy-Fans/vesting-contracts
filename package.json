@@ -1,14 +1,9 @@
 {
-  "name": "vesting-contracts",
+  "author": "B2B",
+  "license": "MIT",
+  "name": "Vesting Contracts",
   "version": "1.0.0",
-  "description": "Vesting smart contracts to release 8PAY tokens according to the tokenomics.",
-  "author": "happyfans",
-  "scripts": {
-    "test": "truffle test",
-    "coverage": "truffle run coverage --network development",
-    "lint:js": "eslint --ignore-path .gitignore .",
-    "lint:js:fix": "eslint --ignore-path .gitignore . --fix"
-  },
+  "description": "Vesting smart contracts to release 8PAY tokens according to the tokenomics",
   "dependencies": {
     "dotenv": "^10.0.0",
     "truffle-privatekey-provider": "^1.5.0"
@@ -28,5 +23,13 @@
     "truffle": "^5.2.5",
     "truffle-deployments": "^0.1.1",
     "truffle-plugin-verify": "^0.5.15"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "coverage": "truffle run coverage --network {network_name}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Happy-Fans/vesting-contracts.git"
   }
 }

@@ -1,10 +1,7 @@
 # Vesting contracts
-
 Vesting smart contracts to release HAPPY tokens according to the tokenomics.
 
-
 ## Binance Smart Chain
-
 The deployed contracts with verified source code can be found at the following addresses.
 
 Contract | Address
