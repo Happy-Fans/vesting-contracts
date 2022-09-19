@@ -1,7 +1,7 @@
 {
   "author": "B2B",
   "license": "MIT",
-  "name": "Vesting Contracts",
+  "name": "vesting-contracts",
   "version": "1.0.0",
   "description": "Vesting smart contracts to release 8PAY tokens according to the tokenomics",
   "dependencies": {
